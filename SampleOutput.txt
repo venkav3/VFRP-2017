@@ -1,0 +1,87 @@
+Confidence level alpha (e.g. 0.99): 0.95
+file prob300.txt
+numNodes 300 numArcs 884
+input network tested and found to be connected (if all links functional) 
+
+*** Iter ***0
+model set up for cplex
+cplex.solve completed 
+ Solution status = Optimal
+objval achieved  = 2.0000
+
+ shortest path 
+0 40 55 259 28 266 290 10 12 87 1  shortest path metric 1.592 threshold 2.996
+*** Iter ***1
+model set up for cplex
+cplex.solve completed 
+ Solution status = Optimal
+objval achieved  = 3.0000
+
+ shortest path 
+0 289 31 282 1  shortest path metric 0.736 threshold 2.996
+*** Iter ***2
+model set up for cplex
+cplex.solve completed 
+ Solution status = Optimal
+objval achieved  = 4.0000
+
+ shortest path 
+0 133 18 198 115 299 298 27 28 266 290 10 12 87 1  shortest path metric 2.040 threshold 2.996
+*** Iter ***3
+model set up for cplex
+cplex.solve completed 
+ Solution status = Optimal
+objval achieved  = 7.0000
+
+ shortest path 
+0 133 102 47 202 259 55 195 1  shortest path metric 2.283 threshold 2.996
+*** Iter ***4
+model set up for cplex
+cplex.solve completed 
+ Solution status = Optimal
+objval achieved  = 10.0000
+
+ shortest path 
+0 289 122 153 95 36 1  shortest path metric 0.960 threshold 2.996
+*** Iter ***5
+model set up for cplex
+cplex.solve completed 
+ Solution status = Optimal
+objval achieved  = 11.0000
+
+ shortest path 
+0 237 29 115 198 150 95 27 28 259 55 195 1  shortest path metric 1.843 threshold 2.996
+*** Iter ***6
+model set up for cplex
+cplex.solve completed 
+ Solution status = Optimal
+objval achieved  = 11.0000
+
+ shortest path 
+0 40 157 89 231 161 255 195 1  shortest path metric 2.348 threshold 2.996
+*** Iter ***7
+model set up for cplex
+cplex.solve completed 
+ Solution status = Optimal
+objval achieved  = 11.0000
+
+ shortest path 
+0 289 263 173 67 236 10 12 87 1  shortest path metric 2.323 threshold 2.996
+*** Iter ***8
+model set up for cplex
+cplex.solve completed 
+ Solution status = Optimal
+objval achieved  = 12.0000
+ no s-t paths found
+ Nodes attacked :
+
+ node 36 weight 1.0
+ node 87 weight 2.0
+ node 195 weight 3.0
+ node 209 weight 2.0
+ node 282 weight 1.0
+ node 298 weight 3.0
+Solution optimal; all path probabilities less than 0.050
+
+ *** DONE ***
+ elapse time (Ms) 91666
